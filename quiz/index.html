@@ -1,0 +1,54 @@
+<!-- https://iuri.is/ -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=icon type=image/png sizes=16x16 href="../content/img/favicon.png">
+    <title>BTS SIO - QUIZ</title>
+    <link href="../content/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i|Montserrat:700" rel=stylesheet>
+</head>
+
+<body>
+    <header>
+        <div class="header-bg"></div>
+        <div class="header-container">
+            <div class="header-breadcrumb">.sio()</div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="../sio/" title="Sio">.sio()</a></li>
+                    <li><a title="Quiz" onclick="goTop()">.quiz()</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="wrapper">
+        <section>
+            <div class="static-container">
+                <h1 class="title">
+                    <span class="white">quiz</span><span class="-purple">.()</span>
+                </h1>
+                <div class="content">
+                    <p class="-purple">Quiz</p>
+                    <p class="-gray">Option SLAM ou SISR ?</p>
+                    <button class="quizz-button start-button" onclick="question()">Commencer</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="quiz-content"></div>
+    <div>
+        <div class="spine2"></div>
+        <div class="spine"></div>
+        <div class="spine-target">
+            <div class="circle" style="background-color: rgb(89, 24, 223);"></div>
+            <div class="pulse"></div>
+        </div>
+    </div>
+    <script src="../content/js/script.js"></script>
+</body>
+
+</html>
